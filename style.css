@@ -1,0 +1,269 @@
+
+
+/* CUSTOM CSS  */
+
+* {
+    box-sizing: border-box;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+p {
+    line-height: 1.5;
+}
+
+img {
+    max-width: 100%;
+}
+
+li {
+    list-style-type: none;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.btn {
+    color: #fff;
+    font-weight: 500;
+    background: #16a085;
+    padding: 20px 30px;
+}
+
+/* HEADER SECTION  */
+
+.header_bg {
+    background: url(images/header-bg.jpg) center no-repeat;
+    background-size: cover;
+}
+
+.navbar {
+    padding-top: 35px;
+}
+
+.nav_list {
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    flex-basis: 45%;
+    align-items: center;
+    max-width: 780px;
+    margin: 0 auto;
+}
+
+
+.header_info {
+    padding-top: 200px;
+    padding-bottom: 250px;
+    color: #fff;
+}
+
+.header_info h1 {
+    text-transform: uppercase;
+    font-weight: 600;
+    padding-bottom: 20px;
+}
+
+.header_info p {
+    padding-bottom: 20px;
+    font-weight: 500;
+}
+
+/* END HEADER SECTION  */
+
+
+/* REPPRESENT SECTION  */
+
+.reppresent_bg {
+    background: url(images/mobile-bg.jpg) center no-repeat;
+    background-size: cover;
+}
+
+.reppresent {
+    padding-top: 110px;
+    padding-bottom: 90px;
+}
+
+.reppresent_info h3 {
+    color: #16a085;
+    font-weight: 600;
+    padding-bottom: 30px;  
+}
+
+.reppresent_info P {
+    font-weight: 400;
+    color: #6a6a6a;
+    padding-bottom: 25px;
+}
+
+
+/* END REPPRESENT SECTION  */
+
+
+/* DESIGN SECTION  */
+
+.design_img {
+    padding-top: 110px;
+}
+
+.design_info {
+    padding-top: 140px;
+    padding-left: 100px;
+}
+
+.design_info h3 {
+    color: #16a085;
+    font-weight: 600;
+    padding-bottom: 30px;  
+}
+
+.design_info p {
+    font-weight: 400;
+    color: #6a6a6a;
+    padding-bottom: 25px;
+}
+
+/* END DESIGN SECTION  */
+
+
+
+/* COMMUNITY SECTION  */
+
+
+.community_bg {
+    background: #f5f6f7;
+}
+
+
+.community {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.community_info h4 {
+    color: #373737;
+    padding-top: 25px;
+    padding-bottom: 20px;
+}
+
+.community_info p {
+    color: #373737;
+}
+
+/* END COMMUNITY SECTION  */
+
+
+/* SUBSCRIBE SECTION  */
+
+.subscribe_bg {
+    background: url(images/subscribe.jpg) center no-repeat;
+    background-size: cover;
+}
+
+.subscribe {
+    padding-top: 300px;
+    padding-bottom: 320px;
+}
+
+.subscribe h4 {
+    color: #fff;
+    font-weight: 500;
+    padding-bottom: 20px;
+}
+
+.input-group {
+   max-width: 345px;
+   margin: 0 auto;
+}
+
+.input-group span {
+    background: #16a085;
+    color: #fff;
+}
+
+
+/* END SUBSCRIBE SECTION  */
+
+
+/* DOWNLOAD SECTION  */
+
+.download_bg {
+    background: #f5f6f7;
+}
+
+.download {
+    padding-top: 90px;
+    padding-bottom: 110px;
+}
+
+.download_info {
+    color: #373737;
+}
+
+.download_info h4 {
+    font-weight: 600;
+    padding-bottom: 10px;
+}
+
+.download_group {
+    padding-top: 50px;
+    max-width: 620px;
+    margin: 0 auto;
+}
+
+.appstore,
+.play_store {
+    display: flex;
+    justify-content: space-between;
+    max-width: 300px;
+    background: #1abc9c;
+    padding: 25px 0 25px 25px;
+    border-radius: 5px;
+   
+}
+
+.appstore h6,
+.play_store h6 {
+    color: #fff;
+    font-size: 24px;
+}
+
+.appstore span,
+.play_store span {
+    margin-right: 25px;
+}
+
+
+/* END DOWNLOAD SECTION  */
+
+
+/* FOOTER SECTION  */
+
+.footer {
+    padding-top: 50px;
+    padding-bottom: 35px;
+}
+
+.footer_info p {
+    font-weight: 500;
+    color: #373737;
+}
+
+.footer_info p span {
+    padding: 0 15px;
+    color: #16a085;
+}
+
+.footer_info small {
+    font-weight: 500;
+}
+
+.footer_img img {
+    float: right;
+}
+
+/* END FOOTER SECTION  */
